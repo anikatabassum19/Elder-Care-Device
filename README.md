@@ -36,8 +36,8 @@ Welcome to the GitHub repository for our Elder Care Monitoring Device! This comp
 1. Clone the repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/elder-care-device.git
-2. Open the Arduino IDE and upload these codes in the esp32 cam module
+   git clone https://github.com/anikatabassum19/elder-care-device.git
+2. Open the Arduino IDE and first combine then upload these codes in the esp32 cam module
 
 ## Connection Strings
 
