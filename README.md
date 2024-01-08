@@ -39,30 +39,32 @@ Welcome to the GitHub repository for our Elder Care Monitoring Device! This comp
    git clone https://github.com/your-username/elder-care-device.git
 2. Open the Arduino IDE and upload these codes in the esp32 cam module
 
-1. **Temperature and Humidity Monitoring (DHT11):**
+## Connection Strings
+
+ **Temperature and Humidity Monitoring (DHT11):**
    - DHT11 GND to ESP32 Cam GND
    - DHT11 VCC to ESP32 Cam 5V
    - DHT11 Data to ESP32 Cam D2
 
-2. **Live Video Streaming (ESP32 Cam Module):**
+ **Live Video Streaming (ESP32 Cam Module):**
    - ESP32 Cam Module (Follow ESP32 Cam pinout)
 
-3. **Fire Detection:**
+ **Fire Detection:**
    - Fire detection sensor (Connection details may vary based on the specific sensor used)
 
-4. **Fall Detection (ADXL345):**
+ **Fall Detection (ADXL345):**
    - ADXL345 GND to ESP32 Cam GND
    - ADXL345 VCC to ESP32 Cam 5V
    - ADXL345 SDA to ESP32 Cam D21
    - ADXL345 SCL to ESP32 Cam D22
-
-5. **SMS Alerts (SIM800L Module):**
+   - 
+**SMS Alerts (SIM800L Module):**
    - SIM800L GND to ESP32 Cam GND
    - SIM800L VCC to ESP32 Cam 5V
    - SIM800L TX to ESP32 Cam U2_RXD
    - SIM800L RX to ESP32 Cam U2_TXD
 
-6. **Location Tracking (NEO 7M GPS Module):**
+**Location Tracking (NEO 7M GPS Module):**
    - NEO 7M GPS Module (Follow NEO 7M GPS Module pinout)
 
 
